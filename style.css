@@ -1,0 +1,116 @@
+/* NAVBAR TWEAKS */
+
+.navbar-collapse {
+  padding: 0;
+}
+
+
+
+footer, #getintouch {
+  text-align: center;
+  margin: auto;
+}
+
+body {
+  font-family: 'Open Sans', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  background: #f0f0f0 url('assets/img/bg.jpg') no-repeat;
+  background-position-bottom: 0;
+}
+
+nav {
+  display: block;
+  height: auto;
+  clear: both;
+  width: 50%;
+  margin: 20px 0 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  clear: both;
+
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li:first-of-type {
+  margin-left: 0px;
+}
+
+nav ul li {
+  float: left;
+  margin-left: 50px;
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+footer a, footer a:hover, footer a:active, footer a:focus {
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+
+.subcontainer {
+  width: 75%;
+  margin: auto;
+}
+
+
+
+#avatar {
+  float: right;
+  width: 150px;
+  height: 150px;
+}
+
+#head {
+  clear: both;
+  min-height: 150px;
+}
+
+h2 { font-weight: 400; }
+
+h3 { font-weight: 200; }
+
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+
+#frames p {
+  background: #DBEBFF;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 20px;
+  color: #585858;
+}
+
+#frames a {
+  text-decoration: underline;
+}
+
+#getintouch {
+  margin: left;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
