@@ -103,7 +103,7 @@ img.emoji {
 
 #getintouch {
   margin: left;
-  width: 80%;
+  max-width: 500px;
   margin-top: 50px;
   margin-bottom: 0px;
   display: -webkit-flex;
