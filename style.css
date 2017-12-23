@@ -4,8 +4,6 @@
   padding: 0;
 }
 
-
-
 footer, #getintouch {
   text-align: center;
   margin: auto;
@@ -69,8 +67,6 @@ footer a, footer a:hover, footer a:active, footer a:focus {
   margin: auto;
 }
 
-
-
 #avatar {
   float: right;
   width: 150px;
@@ -107,10 +103,34 @@ img.emoji {
 
 #getintouch {
   margin: left;
-  width: 50%;
+  width: 80%;
   margin-top: 50px;
   margin-bottom: 0px;
   display: -webkit-flex;
   display: flex;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 480px) {
+   #head > * {
+      text-align: center;
+   }
+
+   #avatar {
+     display: block;
+     clear: both;
+     margin: auto;
+     float: none;
+   }
+
+   #getintouch {
+     display: block;
+     margin: 0;
+     margin-top: 50px;
+     width: auto;
+   }
+
+   #getintouch a, #getintouch span {
+     display: block;
+   }
+ }
