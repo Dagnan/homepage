@@ -12,7 +12,7 @@ footer, #getintouch {
 body {
   font-family: 'Open Sans', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.6rem;
   background: #f0f0f0 url('assets/img/bg.jpg') no-repeat;
   background-position-bottom: 0;
 }
@@ -51,13 +51,13 @@ h1 {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
 footer a, footer a:hover, footer a:active, footer a:focus {
   color: grey;
-  font-size: 12px;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
@@ -78,7 +78,10 @@ footer a, footer a:hover, footer a:active, footer a:focus {
   min-height: 150px;
 }
 
-h2 { font-weight: 400; }
+h2 {
+  font-weight: 400;
+  font-size: 3rem;
+}
 
 h3 { font-weight: 200; }
 
@@ -90,11 +93,31 @@ img.emoji {
 }
 
 #frames p {
+  margin-bottom: 10px;
+}
+
+#frames br {
+  line-height: 0.5em;
+}
+
+#frames div {
   background: #DBEBFF;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 0px;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   color: #585858;
+}
+
+#frames ul {
+  background: #DBEBFF;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding: 0px 0 10px 25px;
+  color: #585858;
+}
+
+#frames ul li {
+  padding-top: 10px;
 }
 
 #frames a {
@@ -104,7 +127,7 @@ img.emoji {
 #getintouch {
   margin: left;
   max-width: 500px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 0px;
   display: -webkit-flex;
   display: flex;
@@ -126,7 +149,7 @@ img.emoji {
    #getintouch {
      display: block;
      margin: 0;
-     margin-top: 50px;
+     margin-top: 30px;
      width: auto;
    }
 
